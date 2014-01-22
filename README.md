@@ -42,7 +42,6 @@ Object options {
 	,attrShow  : Object
 	,classHide : String
 	,classShow : String
-	,sourceClass : String
 	,targetclass : String
    }
 ```
