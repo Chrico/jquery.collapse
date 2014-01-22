@@ -1,7 +1,7 @@
 jquery.collapse
 ===============
 
-==Description==
+##Description##
 creating a collapse-nav with some wai-aria by default~
 
 ```html  	
@@ -18,7 +18,7 @@ $('.collapse').collapse();
 ```  	
   
   	
-__output__
+###Output###
 ```html
   	<div class="collapse">
 		<a class="collapse-header" aria-controls="#c_01" href="#">link</a>
@@ -28,7 +28,7 @@ __output__
 	</div>
 ```
 
-__Events__
+###Events###
 You can also use callbacks:
 
 ```js
@@ -47,5 +47,5 @@ Object options {
    }
 ```
 
-===Read More===
+##Read More##
 * [Aria-Expand and Aria-Controls](http://www.marcozehe.de/2010/02/10/easy-aria-tip-5-aria-expanded-and-aria-controls/)
