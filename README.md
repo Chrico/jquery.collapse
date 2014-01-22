@@ -38,12 +38,12 @@ $('.collapse').on('hide', function(e){ });
 
 ``` 
 Object options {
-  	 attrHide  : Object
-	,attrShow  : Object
-	,classHide : String
-	,classShow : String
-	,targetclass : String
-   }
+  	attrHide  : Object,
+	attrShow  : Object,
+	classHide : String,
+	classShow : String,
+	targetClass : String
+}
 ```
 
 ##Read More##
