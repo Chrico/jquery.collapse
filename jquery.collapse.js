@@ -23,15 +23,15 @@
 
 		$( this ).each( function( i ) {
 
-			var elem = $( this ),
-				elemTarget = elem.find( '.' + options['targetClass'] ),
-				id = elemTarget.attr( 'id' ) || 'cc_' + i
-				;
+			var elem		= $( this ),
+				elemTarget	= elem.find( '.' + options['targetClass'] ),
+				id			= elemTarget.attr( 'id' ) || 'cc_' + i
+			;
 
 			elemTarget.addClass( options[ 'classHide' ] ).attr(
 				$.extend(
-					{'id' : id}
-					,options['attrHide']
+					{ 'id' : id },
+					options['attrHide']
 				)
 			);
 
