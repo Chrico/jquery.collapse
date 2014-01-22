@@ -13,7 +13,6 @@
 			,'attrShow'		: { 'aria-expanded' : true, 'aria-hidden': 'false' }
 			,'classHide'	: 'collapse-hideme'
 			,'classShow'	: 'collapse-showme'
-			,'sourceClass'	: 'collapse-header'
 			,'targetClass'	: 'collapse-content'
 			,'fxSpeed'		: 'normal'
 			},
