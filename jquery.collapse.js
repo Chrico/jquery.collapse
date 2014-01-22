@@ -14,7 +14,6 @@
 			,'classHide'	: 'collapse-hideme'
 			,'classShow'	: 'collapse-showme'
 			,'targetClass'	: 'collapse-content'
-			,'fxSpeed'		: 'normal'
 			},
 			options = $.extend(
 				options,
@@ -44,7 +43,6 @@
 					if( elemTarget.hasClass( options['classHide']) ){
 
 						elemTarget
-							.slideDown( options['fxSpeed'] )
 							.removeClass( options['classHide'] )
 							.addClass( options['classShow'] )
 							.attr( options['attrShow'] )
@@ -53,7 +51,6 @@
 					else{
 
 						elemTarget
-							.slideUp( options['fxSpeed'] )
 							.removeClass( options['classShow'] )
 							.addClass( options['classHide'] )
 							.attr( options['attrHide'] )
